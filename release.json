@@ -1,0 +1,17 @@
+{
+  "scope": "Genesis G70 development artifacts. Dashboard and My Apps are source builds only.",
+  "signer_certificate_sha256": "d7f9a9f23daa147ba72070d0b56ef08dde448633ca974c47f2b568174e616e77",
+  "signing_note": "The bundled probe uses an Android debug certificate.",
+  "apks": [
+    {
+      "file": "apps/g70probe/G70-Probe-debug.apk",
+      "package": "com.github.shariest.g70.probe",
+      "version_code": 1,
+      "version_name": "1.0",
+      "sha256": "65cd6b5748d3dcabdd1fadce48db8a80a8deb479cc6f97d8e98233598e8e2bff",
+      "bytes": 12715,
+      "vehicle_install_observed": false
+    }
+  ],
+  "verification_document": "docs/STATUS.md"
+}

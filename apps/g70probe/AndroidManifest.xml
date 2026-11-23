@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- G70 signal-discovery probe. Read-only: dumps device identity, which OEM
+     managers exist, and the raw hscan_mux byte stream. No ECU requests, no
+     drive-mode setters, no OEM IPC. Frame parsing is done off-device. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.shariest.g70.probe"
+    android:versionCode="1" android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="17"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:label="G70 Probe" android:allowBackup="false">
+        <activity android:name=".ProbeActivity" android:exported="true" android:label="G70 Probe">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

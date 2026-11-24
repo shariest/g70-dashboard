@@ -7,7 +7,7 @@ The G70 port currently ships a discovery probe. Use the source build guide for t
 | Topic | English | 한국어 |
 | --- | --- | --- |
 | Target and evidence | [Compatibility](STATUS.md) | [확인 범위](STATUS.md#한국어) |
-| Enable USB debugging and connect | [USB debugging](ADB_EN.md) | [USB 디버깅 진입·연결 확인](ADB.md) |
+| Enable USB debugging and connect | [USB debugging](ADB_EN.md) | [USB 디버깅 진입·연결 확인](ADB.md) · [국내외 USB·무선 ADB·APK 설치 사례](USB_CONNECTION_CASES_ko.md) |
 | Select an artifact | [Installation](INSTALL_EN.md) | [설치 안내](INSTALL.md) |
 | Investigate signals | [Research workflow](RESEARCH.md) | [조사 과정](RESEARCH_ko.md) · [Probe 사용법](../apps/g70probe/README.md) |
 | Launcher and shortcuts | [My Apps](MY_APPS.md) · [Quick entry](QUICK_ENTRY.md) | [내 앱](MY_APPS_ko.md) · [바로가기](QUICK_ENTRY_ko.md) |
